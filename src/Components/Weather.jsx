@@ -42,7 +42,7 @@ const Weather = () => {
       const res=await fetch(url);
       const data=await res.json();
       if(!res.ok){
-        alert(data.message);
+        // alert(data.message);
         return;
       }
       console.log(data);
